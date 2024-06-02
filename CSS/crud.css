@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+}
+
+/* Link de sair e adicionar */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container centralizado */
+.container {
+    height: 100%;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #242B73; 
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+/* Estilo das ações */
+td a {
+    margin: 0 5px;
+    color: #242B73;
+}
+
+td a:hover {
+    color: #0056b3;
+}
+
+td a:last-child {
+    color: #FF936E;
+}
+
+td a:last-child:hover {
+    color: #c82333;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    table, th, td {
+        padding: 10px;
+    }
+
+    td a {
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    a {
+        margin-right: 10px;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table, th, td {
+        padding: 8px;
+    }
+
+    td a {
+        font-size: 14px;
+        margin: 0 2px;
+    }
+}
